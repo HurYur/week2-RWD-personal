@@ -4,10 +4,15 @@
 	font-family: Arial;
 }
 .icon-logo{
+	display: inline-block;
+	text-indent: 100%;
+   	overflow: hidden;
+}
+
+.icon-logo:after{
 	background: url('http://www.vector-logo.net/logo_preview/eps/w/wrc(1).png');
 	display: inline-block;
 	height: 200px;
 	width: 200px;   
-	text-indent: 100%;
-   	overflow: hidden;
+   	content: '';
 }
