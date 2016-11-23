@@ -1,10 +1,10 @@
-week2-RWD-personal
+# TASK 4 #
 
-# TASK 1 #
+For this task I used Bootstrap grid, also I used original background color as on provided image.
 
-- The last task I made only with 3 lines, who can less??
-![Task 1.1](http://i.piccy.info/i9/daa27818ca5f681927a561f5bf42e572/1479205619/182248/1087531/week2_rwd_1_1.png)
+Here is the link for ready task:
+## https://huryur.github.io/week2-RWD-personal/task4/ ##
 
+also I made 3columns in row with the same width and border around columns.
 
-- incredible task, I even don't know that there are so many selectors.
-![Task 1.2](http://i.piccy.info/i9/a993b09235cb9956264f2a25361b8207/1479209326/72340/1087531/week2_rwd_1_2.png)
+![Task 4](http://i.piccy.info/i9/523136f3ecc47bc3d5f9577e8010e561/1479916595/17185/1087531/week2_rwd_4.png)
