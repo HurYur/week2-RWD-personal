@@ -5,4 +5,6 @@ For this task I used Bootstrap grid, also I used original background color as on
 Here is the link for ready task:
 ## https://huryur.github.io/week2-RWD-personal/task4/ ##
 
+also I made 3columns in row with the same width and border around columns.
+
 ![Task 4](http://i.piccy.info/i9/523136f3ecc47bc3d5f9577e8010e561/1479916595/17185/1087531/week2_rwd_4.png)
