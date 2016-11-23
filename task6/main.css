@@ -1,35 +1,73 @@
-.container{
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.top-container, .bottom-container, .left, .right{
 	display: flex;
 	flex-wrap: wrap;
 	align-content: flex-start;
 }
+.box{
+	margin: 10px 0;
+	width: 100%;
+}
+.left{
+	width: 70%;
+	padding-right: 10px; 
+}
+.right{
+	width: 30%;
+	padding-left: 10px; 
+}
 .red{
 	background: red;
 	height: 100px;
-	width: 100%;
 }
 .orange{
 	background: orange;
 	height: 150px;
-	width: 100%;
-}
-.green{
-	background: green;
-	height: 250px;
-	width: 30%;
 }
 .yellow{
+	display: flex;
+	justify-content: center;
+    align-items: center;
 	background: yellow;
-	height: 150px;
-	width: 35%;
+	height: 200px;
 }
-.blue{
-	background: blue;
-	height: 250px;
-	width: 30%;
+.yellowbox{
+	width: 50%;
+	padding-right: 5px;
+}
+.yellowbox:nth-child(2n){
+	padding-right: 0;
+	padding-left: 5px;
 }
 .pink{
 	background: pink;
-	height: 300px;	
-	width: 70%;
+	height: 300px;
+}
+.blue{
+	background: blue;
+	height: 300px;
+}
+.green{
+	background: green;
+	height: 350px;
+}
+
+@media screen and (max-width: 991px){
+	.left, .yellowbox{
+		padding: 0;
+	}
+	.left{
+		width: 100%;
+	}
+	.left .yellowbox{
+		width: 100%;
+		display: none;
+	}
+	.left .yellowbox:first-child{
+		display: flex;
+	}
 }
