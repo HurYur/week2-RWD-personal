@@ -21,7 +21,10 @@ button{
         0 0 0 6px #F8F8F8, 
         0 0 0 8px #757575;
 }
-span{
+button:before, button:after{
+	content: ' &#9733;';
+}
+.star{
 	font-size: 32px;
 	color: #888888;
 }

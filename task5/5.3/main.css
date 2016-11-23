@@ -1,0 +1,10 @@
+[role=navigation] > span a:not([href^=mailto]){
+	background: red;
+}
+.first div div a + p + p{
+
+	background: blue;
+}
+.second div div p:nth-child(3){
+	background: yellow;
+}
