@@ -1,5 +1,8 @@
-.blue, .orange, .pink{
-	height: 150px;
+.big-block{
+	height: 100px;
+}
+.block{
+	height: 50px;
 }
 .orange{
 	background: #FFAF47;
@@ -8,51 +11,21 @@
 	background: lightblue;
 }
 .red{
-	height: 300px;
 	background: #FF7747;
 }
 .yellow{
-	height: 300px;
 	background: #FFD647;
+	margin: 5px 0;
 }
 .pink{
 	background: #FDC1FF;
 }
 .container-fluid{
-	padding: 0 10px;
+	padding: 0 5px;
 }
 .row{
-	margin: 20px 0;
+	margin: 10px 0;
 }
 .row div[class^="col"]{
 	padding: 0 10px;
-}
-@media screen and (max-width: 991px){
-	.yellow{
-		height: 325px;
-	}
-	.container-fluid{
-	padding: 0 10px;
-}
-@media screen and (max-width: 640px){
-	.yellow{
-		height: 100px;
-		margin-bottom: 10px;
-	}
-	.row .col-xs-12:last-child .yellow{
-		margin-bottom: 0;
-	}
-	.red{
-		height: 200px;
-		background: #FF7747;
-	}
-	.container-fluid{
-		padding: 0 5px;
-	}
-	.row{
-		margin: 10px 0;
-	}
-	.row div[class^="col"]{
-		padding: 0 5px;
-	}
 }
